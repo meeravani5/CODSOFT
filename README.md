@@ -1,27 +1,24 @@
-# Credit Card Fraud Detection
+# Spam SMS Detection
 
 ## Objective
-This project detects fraudulent credit card transactions using Machine Learning.
+Detect whether an SMS is Spam or Not Spam using Machine Learning.
 
-## Technologies Used
+## Technologies
 - Python
 - Pandas
 - Scikit-learn
-- Matplotlib
 
-## Machine Learning Model
+## Model
+- TF-IDF
 - Logistic Regression
 
-## Features
-- Data Cleaning
-- Label Encoding
-- Train-Test Split
-- Fraud Prediction
-- Accuracy Evaluation
-- Visualization
+## Accuracy
+~96%
 
-## Result
-The model successfully classified fraudulent and legitimate transactions with high accuracy.
+## Example
+Input: "Free entry in a contest! win cash now"  
+Output: Spam
 
-## Conclusion
-This project helps financial institutions identify suspicious transactions and reduce fraud risk.
+## Files
+- spam_sms_detection.ipynb
+- spam.csv
